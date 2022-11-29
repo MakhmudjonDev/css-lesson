@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+h1 {
+  text-align: center;
+  font-size: 50px;
+  border-bottom: 10px groove hotpink;
+  font-family: "Lobster", monospace;
+}
+
+.photo {
+  text-align: center;
+}
+
+.bio {
+  text-align: justify;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  border-bottom: 3px ridge hsl(330deg, 95%, 60%);
+}
+
+.team {
+  width: 1100px;
+  margin: 0 auto;
+}
+.team h1 {
+  border-bottom: none;
+}
+.team .members {
+  display: flex;
+  justify-content: space-between;
+}
+.team .members h2 {
+  font-size: 12px;
+  text-align: center;
+}
+.team .members .member img {
+  border-radius: 50%;
+}/*# sourceMappingURL=style.css.map */
